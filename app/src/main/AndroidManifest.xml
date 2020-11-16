@@ -112,6 +112,8 @@
         <activity
             android:name=".activity.DustSensorActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ClearCommEndUserPrivacyUI"/>
 
         <receiver android:name=".receivers.USBDetachReceiver" />
 

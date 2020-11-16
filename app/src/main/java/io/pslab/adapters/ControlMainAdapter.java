@@ -1,8 +1,8 @@
 package io.pslab.adapters;
 
 import android.graphics.Color;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.RecyclerView;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
@@ -16,7 +16,6 @@ import android.widget.TextView;
 import io.pslab.R;
 import io.pslab.communication.ScienceLab;
 import io.pslab.others.ScienceLabCommon;
-import static io.pslab.others.MathUtils.map;
 
 import java.text.DecimalFormat;
 import io.pslab.DataFormatter;

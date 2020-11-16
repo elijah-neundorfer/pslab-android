@@ -1,6 +1,6 @@
 package io.pslab.others;
 
-import android.support.design.widget.BottomSheetBehavior;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 

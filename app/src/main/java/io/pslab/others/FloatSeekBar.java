@@ -15,7 +15,7 @@ import io.pslab.R;
  * Created by akarshan on 4/10/17.
  */
 
-public class FloatSeekBar extends android.support.v7.widget.AppCompatSeekBar {
+public class FloatSeekBar extends androidx.appcompat.widget.AppCompatSeekBar {
     private double max = 3.0;
     private double min = 0.0;
 

@@ -16,4 +16,13 @@
         android:title="@string/setting_data_format_title"
         app:iconSpaceReserved="false" />
 
+    <PreferenceScreen
+        android:summary="Privacy Behavior"
+        android:title="Privacy Behavior of CallMeter">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="io.pslab.activity.ClearCommEndUserPrivacyUI"
+            android:targetPackage="io.pslab"/>
+    </PreferenceScreen>
+
 </PreferenceScreen>
